@@ -1,0 +1,148 @@
+body {
+  color: #40515E;
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  line-height: 2;
+  color: #45454d;
+  font-size: 4rem;
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  position: relative;
+  top: 20px;
+}
+
+h2 {
+  color: #45454d;
+  font-size: 2rem;
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #2b2b28;
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted;
+  border-bottom: none;
+  width: 1.5%;
+  color: #45454d;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+p {
+  line-height: 2;
+}
+
+a{
+  color: #ffd5d5;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+color: #fff1e9;
+}
+.top-container {
+  background-color: #fff1e9;
+  padding-top: 30px;
+  position: relative;
+}
+
+.middle-container {
+  padding: 75px 0;
+  background-color: #ffd5d5;
+}
+
+.bottom-container {
+  background-color: #45454d;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.title{
+  font-weight: normal;
+  line-height: 2;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.cloud1 {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+}
+
+.profpic {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 50px;
+}
+
+.codeimg{
+  width: 25%; /*  scales image to 25% of parent size, in this case the div that is 50% of the screen */
+  float: left;
+  margin-right: 30px;
+}
+
+.learnimg{
+  width: 25%; /*  scales image to 25% of parent size, in this case the div that is 50% of the screen */
+  float: right;
+  margin-left: 30px;
+}
+.circle {
+  border-radius: 50%;
+}
+
+
+.skill-row{
+  width: 50%;
+  margin: 100px 0 100px 0;
+  position: relative;
+  left: 25%;
+  text-align: left;
+  line-height: 2;
+}
+
+.btn {
+	box-shadow:inset 0px 0px 0px 0px #45454d;
+	background:linear-gradient(to bottom, #fff1e9 5%, #fff1e9 100%);
+	background-color:#45454d; /*this doesn't seem to do anything */
+	border-radius:9px;
+	border:2px solid #45454d;
+	display:inline-block;
+	cursor:pointer;
+	color: #45454d;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 10px;
+	text-decoration:none;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #45454d 5%, #45454d 100%);
+  background-color:#45454d; /*this doesn't seem to do anything */
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.cpr{
+  color: #fff1e9;
+}
